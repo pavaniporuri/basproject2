@@ -1,0 +1,9 @@
+---
+applications:
+  - name: myhanaproj2-srv
+    path: .
+    memory: 256M
+    buildpacks:
+      - nodejs_buildpack
+    services:
+      - myhanaproj2-db
